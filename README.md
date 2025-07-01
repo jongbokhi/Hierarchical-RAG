@@ -1,6 +1,4 @@
-# Hierarchical RAG for Web Documents with MCP
-
-## Problem Scenario: Real-World Challenges of Web Document RAG
+## ✅ Challenges of Web Document RAG
 
 When building a Retrieval-Augmented Generation (RAG) system that crawls web documents, stores them in a VectorDB, and uses them for answering user queries, the following challenges emerge:
 
