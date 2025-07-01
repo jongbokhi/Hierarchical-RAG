@@ -66,3 +66,33 @@ To tackle these challenges, we propose a **Hierarchical Retrieval and Generation
 
 The MCP server should follow this **fixed call sequence**:
 
+Document List Retrieval
+↓
+URL Page Fetch
+↓
+Context Filter (Compression)
+↓
+Final Answer Generation
+
+
+---
+
+## ✅ Conclusion
+
+RAG systems that rely on frequently updated web documents face major limitations when using VectorDB alone. The key solution lies in a **hierarchical call structure**:
+
+> **Document List → Real-Time Fetch → Context Filtering**
+
+This approach ensures:
+- High relevance  
+- Up-to-date content  
+- Accurate responses  
+
+Clearly separating the roles of each stage in the MCP server is crucial for reliability and scalability.
+
+---
+
+Feel free to contribute, raise issues, or fork this concept for your own use! 🚀
+
+
+
