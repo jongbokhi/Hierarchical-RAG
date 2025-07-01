@@ -1,6 +1,6 @@
-# 🧠 Hierarchical RAG for Web Documents with MCP
+# Hierarchical RAG for Web Documents with MCP
 
-## 🧩 Problem Scenario: Real-World Challenges of Web Document RAG
+## Problem Scenario: Real-World Challenges of Web Document RAG
 
 When building a Retrieval-Augmented Generation (RAG) system that crawls web documents, stores them in a VectorDB, and uses them for answering user queries, the following challenges emerge:
 
@@ -19,7 +19,7 @@ When building a Retrieval-Augmented Generation (RAG) system that crawls web docu
 
 To tackle these challenges, we propose a **Hierarchical Retrieval and Generation** structure, particularly suited to the **MCP server architecture**.
 
-### 🧱 Stage 1: Document List Retrieval
+### Stage 1: Document List Retrieval
 
 - Store a file called `llms.txt` in the VectorDB.
   - Each chunk contains:  
@@ -38,7 +38,7 @@ To tackle these challenges, we propose a **Hierarchical Retrieval and Generation
 
 ---
 
-### 🌐 Stage 2: URL Page Fetch
+### Stage 2: URL Page Fetch
 
 - Fetch the actual contents of the selected URLs **in real time**.
 
@@ -48,7 +48,7 @@ To tackle these challenges, we propose a **Hierarchical Retrieval and Generation
 
 ---
 
-### ✂️ Stage 3: Context Filter (Compression)
+### Stage 3: Context Filter (Compression)
 
 - Fetched pages may contain **irrelevant information**.
 
