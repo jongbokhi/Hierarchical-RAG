@@ -7,20 +7,19 @@ This repository contains an **initial version** of the system that implements th
 
 The following steps represent the overall retrieval and generation process, with tools and libraries indicated for each stage:
 
-1. Crawling URLs and Descriptions from llms.txt
+### 1. Crawling URLs and Descriptions from llms.txt
  → Tool: Crawling4ai
 
-2. Save extracted URLs and descriptions
+### 2. Save extracted URLs and descriptions
 → Storage: Supabase database
 
-3. Document List Retrieval
-→ Retrieval: FAISS vector similarity search on llms.txt
+### 3. Document List Retrieval
+→ FAISS vector similarity search
 
-4. URL Page Fetch
+### 4. URL Page Fetch
 → Tools: requests, BeautifulSoup
 
-5. Context Filter (Compression)
-→ Retrieval: FAISS vector similarity search on crawled content
+### 5. Context Filter (Compression)
+→ FAISS vector similarity search
 
-6. Final Answer Generation
-→ Language model using filtered context
+### 6. Final Answer Generation
